@@ -3,7 +3,9 @@ import '@/src/app/styles/globals.css';
 import type { Metadata } from 'next';
 import { Roboto } from 'next/font/google';
 
-const inter = Roboto({
+import { Header } from '@/src/widgets/header';
+
+const roboto = Roboto({
   subsets: ['cyrillic'],
   weight: ['400', '500', '700'],
 });
@@ -22,7 +24,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ru">
-      <body className={inter.className}>{children}</body>
+      <body className={roboto.className}>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }

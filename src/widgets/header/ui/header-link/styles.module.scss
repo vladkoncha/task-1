@@ -1,0 +1,21 @@
+.header-link {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 1.45rem;
+  color: #fff;
+  font-size: 0.875rem;
+  letter-spacing: 0.015rem;
+  line-height: 150%;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #0079c5;
+  }
+}
+
+.active {
+  background-color: #008be1;
+  color: #fff;
+}

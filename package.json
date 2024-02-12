@@ -28,10 +28,13 @@
     "lint-staged": "^15.2.0",
     "prettier": "3.2.4",
     "stylelint": "^16.2.1",
+    "stylelint-config-idiomatic-order": "^10.0.0",
     "stylelint-config-standard": "^36.0.0",
+    "stylelint-config-standard-scss": "^13.0.0",
     "typescript": "^5"
   },
   "lint-staged": {
+    "*.{css, scss}": "npx stylelint --fix '**/*.{css,scss}'",
     "*.{js,jsx,ts,tsx}": "eslint --cache --fix",
     "*.{js,jsx,ts,tsx,css,md}": "prettier --write"
   }

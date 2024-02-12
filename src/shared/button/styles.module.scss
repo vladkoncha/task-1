@@ -8,33 +8,32 @@
 }
 
 .primary {
-  color: #fff;
   background-color: #006caf;
+  color: #fff;
 
   &:hover {
     background-color: #0079c5;
   }
 
   &:active {
-    transform: scale(97.5%);
     background-color: #008be1;
+    transform: scale(97.5%);
   }
 }
 
 .secondary {
-  color: #000;
   border: 1px solid #888;
   background-color: #fff;
+  color: #000;
 
   &:hover {
-    color: #006caf;
     border-color: #006caf;
+    color: #006caf;
   }
 
   &:active {
-    color: #00456f;
     border-color: #00456f;
-
+    color: #00456f;
     transform: scale(97.5%);
   }
 }

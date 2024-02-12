@@ -6,9 +6,9 @@ export const metadata: Metadata = {
   title: 'Кнопка',
 };
 
-export default function Home() {
+export default function Page() {
   return (
-    <main style={{ height: '100%' }}>
+    <main style={{ flex: 1 }}>
       <ButtonPage />
     </main>
   );

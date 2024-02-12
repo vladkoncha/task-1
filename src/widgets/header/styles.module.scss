@@ -1,0 +1,22 @@
+@use '../../app/styles/base.scss';
+
+.header-wrapper {
+  display: flex;
+  width: 100%;
+  height: 4rem;
+  justify-content: center;
+  background-color: #448ddb;
+}
+
+.header {
+  width: 100%;
+  max-width: base.$max-width;
+  height: 100%;
+}
+
+.header-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  margin: 0 1.5rem;
+}
