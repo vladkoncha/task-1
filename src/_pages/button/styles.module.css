@@ -1,0 +1,10 @@
+.page-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  max-width: 15rem;
+}
