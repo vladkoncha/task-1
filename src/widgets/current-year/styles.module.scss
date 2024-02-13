@@ -1,0 +1,16 @@
+.year-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.year-text {
+  font-size: 2rem;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+}
