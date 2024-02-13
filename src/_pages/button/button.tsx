@@ -1,4 +1,3 @@
-import { Button } from '@/src/shared/button';
 import { ColorSwitchingButton } from '@/src/widgets/color-switching-button';
 
 import styles from './styles.module.css';

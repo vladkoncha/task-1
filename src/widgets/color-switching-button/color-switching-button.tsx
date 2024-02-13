@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 
-import { Button } from '@/src/shared/button';
+import { Button } from '@/src/shared/ui/button';
 
 import { ColorSwitchingButtonProps } from './types';
 import { getRandomHexColor } from './utils/getRandomColor';

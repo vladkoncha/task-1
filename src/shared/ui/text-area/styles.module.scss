@@ -1,0 +1,26 @@
+.label-container {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+
+.area-container {
+  display: flex;
+  flex-direction: column;
+
+  p {
+    align-self: flex-end;
+    margin: 0.25em 0;
+    font-size: 80%;
+  }
+}
+
+.text-area {
+  min-width: 15rem;
+  min-height: 5rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #555;
+  border-radius: 10px;
+  line-height: 1.5;
+  resize: vertical;
+}
