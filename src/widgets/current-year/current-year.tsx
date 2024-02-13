@@ -16,7 +16,7 @@ export const CurrentYear = () => {
     setIsFetching(true);
     try {
       const timeResponse: Response = await fetch(
-        'http://worldtimeapi.org/api/timezone/Europe/London'
+        'https://worldtimeapi.org/api/timezone/Europe/London'
       );
       const currentTime: TimeData = await timeResponse.json();
       setYear(new Date(currentTime.utc_datetime).getFullYear());
